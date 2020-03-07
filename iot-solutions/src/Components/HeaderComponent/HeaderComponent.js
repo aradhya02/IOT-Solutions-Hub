@@ -21,10 +21,7 @@ class HeaderComponent extends React.Component {
       <header className="header">
 
         <section className="logos">
-          <div className="aws-logo">
-            <img src={awsIcon} alt="awsIcon" className="aws" />
-          </div>
-          <hr></hr>
+          
           <div className="deloitte-icon">
             <img src={DeloitteLogo} alt="DeloitteLogo" className="deloitte" />
           </div>
