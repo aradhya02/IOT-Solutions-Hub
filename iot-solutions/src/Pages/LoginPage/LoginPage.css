@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.login-form-container {
+    height: 100vh;
+    position: relative;
+    
+
+}
+
+.image-transparecny {
+    height: 100%;
+    background-image: url("iotSolutions.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+.login-form {
+    position: absolute;
+    z-index: 10;
+    top: 6%;
+    left: 58%;
+    height: 90%;
+    
+    width: 35%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 50px 10px black;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+.input-field::placeholder{
+    font-size: 16px;
+}
+
+/* Set a style for the submit button */
+.form-btm {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.form-btm:hover {
+    opacity: 1;
+}
+.form-heading{
+    text-align: center;
+    padding-top: 10%;
+}
+.ats-heading {
+    font-size:41px;
+    color: white;
+    font-weight:bold;
+}
+.form-heading img{
+    width: 70%;
+}
+.form-fields{
+    width: 70%;
+    margin-left: 5vw;
+    margin-top: 17vh;
+    padding-top: 10%;
+}
+.login-form button{
+    margin-top: 50px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #171717;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    
+}

@@ -1,0 +1,160 @@
+header{
+    &.header{
+        background-color:#000000;
+        width: 100%;
+        box-sizing:border-box;
+        display: flex;
+        flex-wrap: nowrap;
+        height:80px;
+        section {
+            flex: 1;
+        }
+    }
+    section.logos {
+        display: flex;
+        width: 100%;
+        .aws-logo {
+            margin-left: 8px;
+        }
+        hr {
+            width: 2px;
+            height: 32px;
+            background: rgba(151, 152, 154, 0.5);
+            margin: 24px 16px;
+        }
+        .aws-logo, .deloitte-icon {
+            margin:auto 0px;
+            display: block;
+            .aws {
+                width: 72px;
+                margin-left:8px;
+                margin-right:-12px;
+
+            }
+            .deloitte {
+                width:124px;
+                margin-left:8px;
+            }
+        }
+    }
+    
+    section.title {
+        display: flex;
+        align-items: center;
+        
+        h1{
+            font-size: 24px;
+            margin: 0px;
+            padding: 0px;
+            font-weight:bold;
+            color: #ffffff;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+    }
+
+    section.header-rightSection{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end; 
+        .time-stamp {
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: normal;
+            color: #ffffff;
+            padding: 4px 0 0 10px;
+        }
+        span.question {
+            width: 32px;
+            height: 32px;
+            margin: 0 0px 0 24px;
+            content: url('./question.svg');
+            &:hover {
+                content: url('./question-hover.svg');
+                cursor: pointer;
+            }
+        }
+        .notification-header{
+            position: relative;
+            .icon-icon-notification{
+                width: 32px;
+                height: 32px;
+                margin: 0 24px 0 24px;
+                content: url('./notification_inactive.svg');
+                &:hover {
+                    content: url('./notification_active.svg');
+                    cursor: pointer;
+                }
+            }
+            .noti-count{
+                position: absolute;
+                top: -25%;
+                left: 50%;
+                background-color: red;
+                border-radius: 50%;
+                padding: 2px;
+                width: fit-content;
+                box-sizing: border-box;
+                font-size: 12px;
+                display: none;
+                &.show{
+                    display: block;
+                }
+            }
+
+        }
+        
+        
+    }
+        
+    .alerts{
+        width:37%;
+        float: left;
+        margin-top:20px;
+        .alert-type{
+            padding: 0px;
+            margin: 0 0 0 16px;
+            font-size: 20px;
+            float: left;
+            &.alert-header{
+                color: #da291c;
+            }
+            
+        }
+        .alert-description,.page-name{
+            padding: 0px;
+            margin: 0 0 0 16px; 
+            font-size: 23px; 
+            float: left;
+            line-height: 34px;
+            color:#ffffff;
+        }
+        .alert-description {
+            border-left: 1px solid #ffffff;
+            margin-left: 11px;
+            padding-left: 11px;
+        }
+        .alert-timePassed{
+            float: left;
+            padding: 0 16px;
+            line-height: 36px;
+            margin: 0 0 0 16px;
+            color:#5d5e60;
+            font-size: 14px;
+            
+        }
+        .learnMore{
+            float: left;
+            padding: 0;
+            line-height: 36px;
+            margin: 0;
+            color:#5d5e60;
+            font-size: 16px;
+            text-transform: uppercase;
+           
+        }
+    }
+}

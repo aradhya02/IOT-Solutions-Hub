@@ -1,0 +1,78 @@
+.dashboard {
+    height:100vh;
+    background-color: #3b414b;
+    overflow: hidden;
+}
+.menu-and-project {
+    display: flex;
+    height:95%;
+}
+.left-menu {
+    height: 100%;
+    background-color: #171717;
+    width:6%;
+}
+.logout-icon {
+    padding: 62vh 0vh 0vh 3vh;
+    width: 49px;
+}
+.settings {
+    content:url('./settings.svg');
+    width: 70px;
+    padding: 19px;
+
+}
+.demo-icon {
+    padding-top: 23px;
+    padding-top: 18vh 0vh 0vh 23px;
+    width: 59px;
+    padding-left: 25px;
+    content:url('./demoLinks.svg');
+}
+.project-tiles {
+    width:94%;
+    height: 100%;
+}
+
+.sff-tile {
+    background-color: #2f343b;
+    width: 97%;
+    margin: 20px 0px 20px 20px;
+    /* margin-right: 80px; */
+    height: 50%;
+    background-color: #2f343b;
+}
+.asset-track-turnkey {
+    width: 97%;
+    margin: 20px 0px 20px 20px;
+    display: flex;
+    height: 40%;
+    
+}
+.aws-asset-track-tile, .turnkey-tile {
+    height: 100%;
+    background-color: #2f343b;
+    
+    width: 58%;
+
+
+}
+.aws-asset-track-tile{
+    margin-right: 30px;
+
+}
+.sff-heading {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    padding: 12%;
+
+}
+.asset-track-heading, .turnkey-heading {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20%;
+}
